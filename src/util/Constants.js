@@ -36,4 +36,10 @@ module.exports = {
         XXS: normalize(6.5),
     },
 
+    ACTIONS: {
+        //Splash Screen Actions
+        SPLASH_UPDATE_LOADING: 'SPLASH_UPDATE_LOADING',
+        SPLASH_ERROR_UPDATE: 'SPLASH_ERROR_UPDATE',
+    }
+
 }
