@@ -8,13 +8,13 @@ const initialState = {
 }
 
 export const splashState = (state = initialState, action) => {
-    switch (action?.type) {
+    switch (action.type) {
         case ACTIONS.SPLASH_UPDATE_LOADING:
             return { ...state, isSplashLoading: action.status }
         case ACTIONS.SPLASH_ERROR_UPDATE:
             return { ...state, splashError: action?.splashError }
         default:
-            state;
+            return state;
     }
 }
 

@@ -17,7 +17,7 @@ module.exports = {
     APP_NAME: DeviceInfo.getApplicationName(),
 
     PRIMARY_IMAGE: {
-
+        APP_LOGO: require('../assets/Images/APP_LOGO.jpg'),
     },
 
     FONT_FAMILY: 'OpenSans',
@@ -34,6 +34,33 @@ module.exports = {
         S: normalize(8),
         XS: normalize(7),
         XXS: normalize(6.5),
+    },
+
+    COLOR: {
+        THEME_COLOR: '#8cbc54',
+        THEME_COLOR_2: '#E0EACD',
+        THEME_COLOR_3: '#f1f7e7',
+
+        FONT_COLOR: '#000000',
+        FONT_COLOR_HINT: '#939393',
+        FONT_HINT: '#536765',
+        FONT_OPPS_COLOR: '#F3F3F4',
+
+        BLACK_COLOR: '#000000',
+        WHITE_COLOR: '#FFFFFF',
+
+        SCREEN_BG: '#F2F2F2',
+        HIGHLIGHT_03: '#1B30F9',
+        SPINNER_COLOR: '#FFFFFF',
+        ERROR_COLOR: '#FF0000',
+
+        ORANGE_COLOR: '#FFA500',
+        BLUE_COLOR: '#007BFF',
+        GREEN_COLOR: '#28A745',
+        DARK_GREEN_COLOR: '#20C997',
+        GREY_COLOR: '#6C757D',
+        RED_COLOR: '#DC3545',
+
     },
 
     ACTIONS: {
